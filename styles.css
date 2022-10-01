@@ -1,0 +1,6 @@
+.gridSquare {
+    align-items: center;
+    border: 1px solid black;
+    height: 16px;
+    width: 16px;
+}
