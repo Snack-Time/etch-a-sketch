@@ -1,6 +1,17 @@
+#grid-container {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 16 1fr;
+    grid-template-rows: 16 1fr;
+}
+
 .gridSquare {
     align-items: center;
     border: 1px solid black;
     height: 16px;
     width: 16px;
+}
+
+h1 {
+    text-align: center;
 }
