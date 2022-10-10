@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 #grid-container {
     display: grid;
     height: 600px;
@@ -5,6 +12,17 @@
     margin: 0px;
     padding: 0px;
     border: 1px solid red;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 .gridSquare {
