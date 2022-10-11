@@ -11,7 +11,7 @@ body {
     width: 600px;
     margin: 0px;
     padding: 0px;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 #buttons {
@@ -19,10 +19,29 @@ body {
     flex-direction: row;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    padding-bottom: 16px;
 }
 
 p {
     text-align: center;
+}
+
+.newGridButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #555658;
+    font-size: 19px;
+    border: 1px solid #000000;
+    padding: 15px 15px;
+    cursor: pointer
+}
+
+.newGridButton:hover {
+    color: #282e39;
+    background-color: #ffffff;
 }
 
 .gridSquare {
