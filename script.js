@@ -31,4 +31,12 @@ function newGrid() {
     gridContainerSelector.innerHTML = "";
     newGridNum = prompt("Enter new Grid Dimension", "16");
     gridMaker(newGridNum);
+}
+
+function whatIfItWasPurple() {
+    color = "purple";
 };
+
+function blackColor() {
+    color = "black"
+}
